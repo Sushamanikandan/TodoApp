@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  background-color: #020237;
+  color: aliceblue;
+  border-radius: 5px;
+ 
+}
+.maindiv{
+  margin-left: 5px;
+ 
+}
+.maindiv .addbutton{
+background-color: #8f8ff8;
+margin-left: 5px;
+border-radius: 5px;
+border: none;
+margin-right: 10px;
+height: 20px;
+
+}
+.maindiv .addbutton:hover
+{cursor: pointer;
+  background-color: #6f6ff3;
+}
+.maindiv .inputfield{
+  border-radius: 5px;
+  outline: none;
+  height: 20px;
+}
+.seconddiv {
+  margin: 0%;
+   text-align: left;
+   padding: 5px;
+   display: inline;
+  
+}
+  
+.seconddiv .deletebutton{
+  align-items: right;
+  background-color: #8f8ff8;
+  height: 20px;
+  border: none;
+  margin-left: 70%;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+
+}
+.seconddiv .deletebutton:hover{
+  cursor: pointer;
+  background-color: #6f6ff3;
+}
+.seconddiv .editbutton{
+  background-color: #8f8ff8;
+  height: 20px;
+  border: none;
+  margin-left: 75%;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: inline;
+ 
+
+}
+.seconddiv .editbutton:hover{
+  cursor: pointer;
+  background-color: #6f6ff3;
+}
+.thirddiv{
+  padding: 5px;
+}
+  .thirddiv .savebutton{
+    background-color: #8f8ff8;
+    height: 20px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 7px;
+    padding-right: 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+  .thirddiv .cancelbutton{
+    background-color: #8f8ff8;
+    height: 20px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .thirddiv .edittext{
+  border-radius: 5px;
+  outline: none;
+  height: 20px;
+
+  }
+  .thirddiv .savebutton:hover{
+    cursor: pointer;
+  background-color: #6f6ff3;
+  }
+  .thirddiv .cancelbutton:hover{
+    cursor: pointer;
+  background-color: #6f6ff3;
+  }
